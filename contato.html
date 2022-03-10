@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="./index.html"> Home </a> <br />
+        <a href="./pag_two.html"> +Informações</a>
+      </nav>
+    </header>
+
+    <table border="3px">
+      <thead>
+        <tr>
+          <th>Formulário para contato</th>
+        </tr>
+      </thead>
+      <form action="#" method="get">
+        <tbody>
+          <tr>
+            <td>
+              <label>
+                Nome:
+                <input type="text" required />
+              </label>
+            </td>
+            <td>
+              <label>
+                Sobrenome:
+                <input type="text" />
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>
+                E-mail:
+                <input type="email" required autocomplete="on" />
+              </label>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label>
+                Qual o seu sexo? <input type="radio" /> Feminino
+                <input type="radio" /> Masculino
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="dt_nascimento" required>
+                Data de nascimento:
+                <input type="date" />
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <textarea name="duvidas" id="duvida" cols="20" rows="5">
+                    Digite sua dúvida aqui
+                </textarea
+              >
+            </td>
+          </tr>
+          <br />
+          <tr>
+            <td>
+              <label>
+                Senha:
+                <input type="password" maxlength="10" required />
+              </label>
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td size="2px">
+              <label for="submit">
+                <input type="submit" value="enviar" />
+                <input type="reset" value="apagar dados" />
+              </label>
+            </td>
+          </tr>
+        </tfoot>
+      </form>
+    </table>
+  </body>
+</html>
